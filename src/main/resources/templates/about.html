@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Мы на карте - euphoria</title>
+</head>
+<head th:insert="blocks/head :: head"></head>
+<body style="background: #e29ed6;">
+<div th:insert="blocks/nav :: nav"></div>
+<main class="page projects-page mt-5">
+    <section class="portfolio-block projects-with-sidebar">
+        <div class="container">
+            <div class="heading">
+                <h2>Мы на карте</h2>
+            </div>
+            <div class="row">
+                <div class="col-12" align="justify"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Distinctio dolor doloribus et exercitationem fugiat laborum neque omnis placeat quae quaerat
+                    quam, recusandae rem reprehenderit suscipit velit veritatis vitae! Itaque, omnis?</p></div>
+                <div class="col-12" align="center">
+                    <iframe allowfullscreen="" frameborder="0" loading="lazy"
+                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCGz6HJDVY9fht_jGVCprEpRCwZ8PSsqhc&amp;q=Minsk&amp;zoom=11"
+                            width="75%" height="500"
+                            style="box-shadow: 0px 0px 6px;border-radius: 5px;border: 1px solid rgb(255,255,255);width: 100%;margin-top: 15px;height: 500px;"></iframe>
+                </div>
+                <div class="col-12" align="justify"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Cumque, distinctio, dolore in iste magni modi molestiae natus nulla optio pariatur porro, quam
+                    totam veritatis vitae voluptates. Fuga fugiat minima vero!</p></div>
+                <div class="col-12" align="justify"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Accusantium ad at, commodi, dolore doloremque eos facere fuga id magnam porro praesentium quod
+                    rem voluptas? Alias amet eum officia repellendus saepe.</p></div>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+<script src="/js/theme.js"></script>
+</body>
+
+</html>
